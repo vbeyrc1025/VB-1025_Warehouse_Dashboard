@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gate Registration Form</title>
+	<style>
+		body{color: white;}
+	</style>
+</head>
+<body>
+	<section style="background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/04/Colorful-Website-Backgrounds.jpg);color: white;">
+	<br>
+	<h1 style="text-align: center;font-size: 250%;">GATE 2021</h1>
+	<h2 style="text-align: center;font-size: 150%;">Registration Form</h2>
+	<br>
+	</section>
+	<br>
+	<section style="color: black; font-size: 150%;">
+	<marquee behavior="scroll" direction="left">Last Date of registration is 19/10/2020. </marquee>
+	<marquee behavior="scroll" direction="left">Registration Fees: <s>Rs.1500/-</s> <b>Rs.1000/-</b> </marquee>
+	</section>
+	<br>
+	<form style="background-image: url(https://www.indjobsportal.in/wp-content/uploads/2015/02/Indjobsportal-background1.jpg);">
+		<br><br>
+		<fieldset>
+			<legend><strong>Personal Information:</strong></legend>
+			<br>
+			<table width="100%">
+				<tr>
+					<td width="15%" style="text-align: center;"><label for="fname">First name:</label></td>
+					<td width="15%" style="text-align: center;"><input type="text" id="fname" name="fname" size="30" placeholder="First Name" required="on"></td>
+					<td width="15%" style="text-align: center;"><label for="mname">Middle name:</label></td>
+					<td width="15%" style="text-align: center;"><input type="text" id="mname" name="mname" size="30" placeholder="Middle Name" required="on"></td>
+					<td width="15%" style="text-align: center;"><label for="lname">Last name:</label></td>
+					<td width="15%" style="text-align: center;"><input type="text" id="lname" name="lname" size="30" placeholder="Last Name" required="on"></td>
+				</tr>
+			</table>
+			<br>
+			<table>
+				<tr>
+					<td width="25%" style="text-align: right;"><label for="gname"><pre style="font-family: Times new roman;">Guardian's name:  </pre></label></td>
+					<td width="25%" style="text-align: left;"><input type="text" id="gname" name="gname" size="30" placeholder="Guardian's Name" required="on"></td>
+					<td width="25%" style="text-align: right;"><label for="add"><pre style="font-family: Times new roman;">Permanant address:  </pre></label></td>
+					<td width="25%" style="text-align: left;"><input type="address" id="add" name="add" size="30" placeholder="Resedential Address" required="on"></td>
+				</tr>
+			</table>
+			<table>
+				<tr>
+					<td width="25%" style="text-align: right;"><label for="email"><pre style="font-family: Times new roman;">E-mail:  </label></pre></td>
+					<td width="25%" style="text-align: left;"><input type="email" id="email" name="email" size="30" placeholder="Email" required="on"></td>
+					<td width="25%" style="text-align: right;"><label for="birthday"><pre style="font-family: Times new roman;">Date of Birth:  </pre></label></td>
+					<td width="25%" style="text-align: left;"><input type="date" id="birthday" name="birthday" required="on"></td>
+				</tr>
+			</table>
+			<br>
+			<table>
+				<tr>
+					<td width="25%" style="text-align: right;"><label for="id"><pre style="font-family: Times new roman;">Enter ID-proof:  </label></pre></td>
+  					<td width="25%" style="text-align: left;">
+  						<select id="id" name="id" required="on" >
+  						<option value="" disabled selected hidden>Select ID-proof</option>
+    					<option value="adhar">Adhar Card</option>
+    					<option value="clgid">College ID</option>
+    					<option value="pan">Pancard</option>
+    					<option value="voterid">Voter's ID</option>
+  						</select>
+  					</td>
+					<td width="25%" style="text-align: right;"><label for="idp"><pre style="font-family: Times new roman;">Attach ID-proof:  </pre></label></td>
+					<td width="25%" style="text-align: left;"><input type="file" id="idp" name="idp" size="30" required="on"></td>
+				</tr>
+			</table>
+		</fieldset>
+		<br><br>
+		<fieldset>
+			<legend><strong>Educational Information:</strong></legend>
+			<br>
+			<table width="100%">
+				<tr>
+					<td width="25%" style="text-align: right;"><label for="ql"><pre style="font-family: Times new roman;">Qualification:  </label></pre></td>
+					<td width="25%" style="text-align: left;">
+  						<select id="ql" name="ql" required="on" multiple="on" >
+  						<option value="" disabled selected hidden>Select Qualification</option>
+  						<optgroup label="Student"></optgroup>
+  							<optgroup label="B Tech"></optgroup>
+		    					<option value="ty">Third Year</option>
+		    					<option value="ly">Last Year</option>
+		    				<optgroup label="M Tech"></optgroup>
+		    					<option value="fy">First Year</option>
+		    					<option value="sy">Second Year</option>
+	    				<optgroup label="Other"></optgroup>
+	    					<option value="pr">Professor</option>
+	    					<option value="em">Employee</option>
+	    					<option value="nn">None of these</option>
+  						</select>
+  					</td>
+  					<td width="25%" style="text-align: right;"><label for="branch"><pre style="font-family: Times new roman;">Branch:   </pre></label></td>
+  					<td width="25%" style="text-align: left;">
+  						<select id="branch" name="branch" required="on" >
+		  				<option value="" disabled selected hidden>Select Branch</option>
+		    			<option value="cse">Computer science</option>
+		    			<option value="it">Information Technology</option>
+		    			<option value="ele">Electrical</option>
+		    			<option value="en">Electronics</option>
+		    			<option value="mech">Mechanical</option>
+		    			<option value="cv">Civil</option>
+  					</select></td>
+  				</tr>	
+			</table>
+			<table width="100%">
+				<tr>
+					<td width="25%" style="text-align: right;"><label for="un"><pre style="font-family: Times new roman;">University Name:  </label></pre></td>
+					<td width="25%" style="text-align: left;">
+						<input list="uns" name="un" id="un" placeholder="University Name" required="on">
+							  <datalist id="uns">
+							    <option value="Pune University">
+							    <option value="Shivaji University">
+							    <option value="Mumbai University">
+							  </datalist>
+					</td>
+					<td width="25%" style="text-align: right;"><label for="cn"><pre style="font-family: Times new roman;">College Name:  </label></pre></td>
+					<td width="25%" style="text-align: left;">
+						<input list="cns" name="cn" id="cn" placeholder="College Name" required="on">
+							  <datalist id="cns">
+							    <option value="WCE Sangli">
+							    <option value="KBP Satara">
+							    <option value="VJTI Mumbai">
+							    <option value="COEP Pune">
+							    <option value="VIT Pune">
+							    <option value="Commins Pune">
+							    <option value="PICT Pune">
+							  </datalist>
+					</td>
+				</tr>
+			</table>
+		</fieldset>
+		<br><br>
+		<fieldset>
+			<legend><strong>Exam Preferences:</strong></legend>
+			<table>
+				<tr style="text-align: left;"><h5>Branch Preferences:</h5></tr>
+				<tr>
+					<td width="15%" style="text-align: right;"><label for="pre1"><pre style="font-family: Times new roman;">Preference 1:   </pre></label></td>
+					<td width="15%" style="text-align: left;">
+						<select id="pre1" name="pre1" required="on" >
+		  				<option value="" disabled selected hidden>Select Preference 1</option>
+		    			<option value="cse">Computer science</option>
+		    			<option value="it">Information Technology</option>
+		    			<option value="ele">Electrical</option>
+		    			<option value="en">Electronics</option>
+		    			<option value="mech">Mechanical</option>
+		    			<option value="cv">Civil</option>
+  					</select></td>
+  					<td width="15%" style="text-align: right;"><label for="pre2"><pre style="font-family: Times new roman;">Preference 2:   </pre></label></td>
+  					<td width="15%" style="text-align: left;">
+  						<select id="pre2" name="pre2" required="on" >
+		  				<option value="" disabled selected hidden>Select Preference 2</option>
+		    			<option value="cse">Computer science</option>
+		    			<option value="it">Information Technology</option>
+		    			<option value="ele">Electrical</option>
+		    			<option value="en">Electronics</option>
+		    			<option value="mech">Mechanical</option>
+		    			<option value="cv">Civil</option>
+  					</select></td>
+  					<td width="15%" style="text-align: right;"><label for="pre3"><pre style="font-family: Times new roman;">Preference 3:   </pre></label></td>
+  					<td width="15%" style="text-align: left;">
+  						<select id="pre3" name="pre3" required="on" >
+		  				<option value="" disabled selected hidden>Select Preference 3</option>
+		    			<option value="cse">Computer science</option>
+		    			<option value="it">Information Technology</option>
+		    			<option value="ele">Electrical</option>
+		    			<option value="en">Electronics</option>
+		    			<option value="mech">Mechanical</option>
+		    			<option value="cv">Civil</option>
+  					</select></td>
+				</tr>
+			</table>
+			<table>
+				<tr style="text-align: left;"><h5>City Preferences:</h5></tr>
+				<tr>
+					<td width="15%" style="text-align: right;"><label for="c1"><pre style="font-family: Times new roman;">Preference 1:  </label></pre></td>
+					<td width="15%" style="text-align: left;">
+  						<select id="c1" name="c1" required="on"  >
+  						<option value="" disabled selected hidden>Select Preference 1</option>
+  						<optgroup label="Andhra Pradesh"></optgroup>
+		    					<option value="a1">Vijayawada</option>
+		    					<option value="a2">Guntur</option>
+		    					<option value="a3">Nellore</option>
+		    					<option value="a4">Chittoor</option>
+	    				<optgroup label="Karnataka"></optgroup>
+	    						<option value="k1">Bengaluru</option>
+		    					<option value="k2">Mysuru</option>
+		    					<option value="k3">Ballari</option>
+		    					<option value="k4">Bidar</option>
+		    			<optgroup label="Gujarat"></optgroup>
+	    						<option value="g1">Surat</option>
+		    					<option value="g2">Vadodara</option>
+		    					<option value="g3">Anand</option>
+		    					<option value="g4">Morbi</option>
+		    			<optgroup label="Maharashtra"></optgroup>
+	    						<option value="m1">Satara</option>
+		    					<option value="m2">Pune</option>
+		    					<option value="m3">Mumbai</option>
+		    					<option value="m4">Sangli</option>
+		    			<optgroup label="Uttar Pradesh"></optgroup>
+	    						<option value="u1">Lucknow</option>
+		    					<option value="u2">Kanpur</option>
+		    					<option value="u3">Agra</option>
+		    					<option value="u4">Meerut</option>
+  						</select>
+  					</td>
+  					<td width="15%" style="text-align: right;"><label for="c1"><pre style="font-family: Times new roman;">Preference 2:  </label></pre></td>
+					<td width="15%" style="text-align: left;">
+  						<select id="c2" name="c2" required="on"  >
+  						<option value="" disabled selected hidden>Select Preference 2</option>
+  						<optgroup label="Andhra Pradesh"></optgroup>
+		    					<option value="a1">Vijayawada</option>
+		    					<option value="a2">Guntur</option>
+		    					<option value="a3">Nellore</option>
+		    					<option value="a4">Chittoor</option>
+	    				<optgroup label="Karnataka"></optgroup>
+	    						<option value="k1">Bengaluru</option>
+		    					<option value="k2">Mysuru</option>
+		    					<option value="k3">Ballari</option>
+		    					<option value="k4">Bidar</option>
+		    			<optgroup label="Gujarat"></optgroup>
+	    						<option value="g1">Surat</option>
+		    					<option value="g2">Vadodara</option>
+		    					<option value="g3">Anand</option>
+		    					<option value="g4">Morbi</option>
+		    			<optgroup label="Maharashtra"></optgroup>
+	    						<option value="m1">Satara</option>
+		    					<option value="m2">Pune</option>
+		    					<option value="m3">Mumbai</option>
+		    					<option value="m4">Sangli</option>
+		    			<optgroup label="Uttar Pradesh"></optgroup>
+	    						<option value="u1">Lucknow</option>
+		    					<option value="u2">Kanpur</option>
+		    					<option value="u3">Agra</option>
+		    					<option value="u4">Meerut</option>
+  						</select>
+  					</td>
+  					<td width="15%" style="text-align: right;"><label for="c3"><pre style="font-family: Times new roman;">Preference 3:  </label></pre></td>
+					<td width="15%" style="text-align: left;">
+  						<select id="c3" name="c3" required="on"  >
+  						<option value="" disabled selected hidden>Select Preference 3</option>
+  						<optgroup label="Andhra Pradesh"></optgroup>
+		    					<option value="a1">Vijayawada</option>
+		    					<option value="a2">Guntur</option>
+		    					<option value="a3">Nellore</option>
+		    					<option value="a4">Chittoor</option>
+	    				<optgroup label="Karnataka"></optgroup>
+	    						<option value="k1">Bengaluru</option>
+		    					<option value="k2">Mysuru</option>
+		    					<option value="k3">Ballari</option>
+		    					<option value="k4">Bidar</option>
+		    			<optgroup label="Gujarat"></optgroup>
+	    						<option value="g1">Surat</option>
+		    					<option value="g2">Vadodara</option>
+		    					<option value="g3">Anand</option>
+		    					<option value="g4">Morbi</option>
+		    			<optgroup label="Maharashtra"></optgroup>
+	    						<option value="m1">Satara</option>
+		    					<option value="m2">Pune</option>
+		    					<option value="m3">Mumbai</option>
+		    					<option value="m4">Sangli</option>
+		    			<optgroup label="Uttar Pradesh"></optgroup>
+	    						<option value="u1">Lucknow</option>
+		    					<option value="u2">Kanpur</option>
+		    					<option value="u3">Agra</option>
+		    					<option value="u4">Meerut</option>
+  						</select>
+  					</td>
+				</tr>
+			</table>
+			<br><br>
+		</fieldset>
+		<table width="100%">
+			<br>
+    		<tr>
+    			<td width="50%" style="text-align: right;"><button type="submit" name="Submit"  onclick="alert('Application Received Successfully...')">Submit</button></td>
+    			<td  width="50%" style="text-align: left;"><input type="reset" name="reset"  onclick="alert('Form reseted successfully...')"></td>
+    		</tr>
+    	</table>
+    <br><br>
+	</form>
+		<footer style="text-align: center; color: black;">
+  				<p>Shared by:<br> <a href="mailto:avasareshivani2000@gmail.com">Shivani Avasare</a><br> 
+				Visit us at:<br>
+				Walchand College Of Engineering,Sangli<br>
+				Maharashtra<br>
+				India</p>
+		</footer>
+</body>
+</html>
